@@ -1,5 +1,5 @@
 .fundo{
-    background-image: url(../Img/fundoCinza.jpg);
+    background-image: url(../Img/fundoCinza.jpg) ;
 }
 *{
     margin: 0%;
@@ -14,6 +14,9 @@ li{
     list-style: none;
 
 }
+.row{
+    margin: 0%;
+}
 
 textarea.form-control{
     height: 90px;
@@ -22,6 +25,7 @@ textarea.form-control{
 form, .alert{
     margin-bottom: 0%;
 }
+
 /* estilizando formulario inicio*/
 .card{
     box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
