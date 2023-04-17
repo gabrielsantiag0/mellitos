@@ -1,3 +1,29 @@
 .fundo{
     background-image: url(../Img/fundoCinza.jpg);
 }
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+textarea.form-control{
+    height: 90px;
+    resize: none;
+}
+form, .alert{
+    margin-bottom: 0%;
+}
+/* estilizando formulario inicio*/
+.card{
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
+}
+/* estilizando formulario final*/
