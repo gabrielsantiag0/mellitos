@@ -31,3 +31,12 @@ form, .alert{
     box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
 }
 /* estilizando formulario final*/
+/* botao volta para o inicio */
+.voltar-ao-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+  }
+  
+/*botao volta para o final */

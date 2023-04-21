@@ -29,37 +29,33 @@ app.get('/send',(req, res) =>{
 })
 
 //===================================
-const form = document.getElementById('FaleConosco');
-const nameInput = document.getElementById('nome');
-const emailInput = document.getElementById('email');
-const assuntoInput = document.getElementById('assunto');
-const mensagemTextarea = document.getElementById('mensagem');
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
 
-    //verfica se o nome está vazio;
-    if(nameInput.value === ""){
-        alert('Por favor, preencha o seu Nome');
-        return;
+// Seleciona o botão de voltar ao topo
+var btnVoltarAoTopo = document.querySelector('.voltar-ao-topo');
+
+// Função que exibe ou oculta o botão de voltar ao topo dependendo da posição da página
+function mostrarBotaoVoltarTopo() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.querySelector(".voltar-ao-topo").style.display = "block";
+    } else {
+        document.querySelector(".voltar-ao-topo").style.display = "d-none";
     }
-    //verfica se o email está vazio;
-    if(emailInput.value === ""){
-        alert('Por favor, preencha o seu Email');
-        return;
-    }
-    //verfica se o email está vazio;
-    if(assuntoInput.value === ""){
-        alert('Por favor, preencha o Assunto');
-        return;
-    }
-      //verfica se a mensagem está prenechida;
-      if(mensagemTextarea.value === ""){
-        alert('Por favor, preencha a Mensagem');
-        return;
-    } 
-    // se todos os campos estiverem coretamentes preenchidos, envie o form
-    form.submit();
-    alert('Sua mensagem foi enviada com sucesso');
+}
+
+// Função que rola a página de volta para o topo
+function voltarAoTopo() {
+    document.body.scrollTop = 0; // Para browsers Safari
+    document.documentElement.scrollTop = 0; // Para browsers Chrome, Firefox, IE e Opera
+}
+
+// Adiciona um ouvinte de eventos ao clicar no botão
+btnVoltarAoTopo.addEventListener('click', function() {
+  // Rola a página suavemente até o topo
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 });
 
+  
