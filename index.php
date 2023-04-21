@@ -9,40 +9,12 @@
     <title>Acesso Dm Mellitus</title>
 </head>
 <body class="">
-  <!-- cabeçario  -->
-    <header class="">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-danger">
-        <div class="container-fluid bg-white">
-          <a class="navbar-brand text-danger mx-4" href="index.html"> <img src="Img/logopequenaweb.png" alt="" srcset=""> </a>
-          <div class="collapse navbar-collapse navbar-right d-flex justify-content-center hiden" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item mx-3">
-                <a class="nav-link active text-danger" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item mx-e">
-                <a class="nav-link text-danger" href="FaleConosco.html">Contato</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-danger" href="download.html">Download</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-danger" href="sobreNos.html">Sobre nós</a>
-              </li>
-              </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- botões -->
-    <main>
-        <!-- <div class=" mx-2 mt-5 fundo">
-          <div class="bg-danger text-white"><a class="nav-link m-3" href="#">Download</a></div>
-          <div class="bg-danger text-white"><a class="nav-link m-3" href="#">Contato</a></div>
-          <div class="bg-danger text-white"><a class="nav-link m-3" href="#">Videos</a></div>
-        </div> -->
-    </main>
+  <!-- menu  -->
+
+  <?php 
+    include 'menu.php';
+  ?>
+   
     <!-- conteudo  -->
     <section class="m-5">
       <div class="d-flex justify-content-center">
@@ -50,46 +22,11 @@
       </div>
     </section>
     <!-- carousel  -->
-    <section class="d-flex justify-content-center rounded-2">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Img/Compromisso_Com_A_Vida.png" class="d-block w-100 border rounded-4" alt="img do compromisso com a vida">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-4">A Diabetes não é o fim do mundo, mas sim um novo mudo a ser descoberto.</h5>
-              <p></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-          <a href="https://diabetes.org.br/dia-mundial-do-diabetes/">+<img src="Img/imgcarocel.jpg" class="d-block w-100 border rounded-4" alt="imagem do dia 14 de novembro"></a>  
-            <div class="carousel-caption d-none d-md-block">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href="https://diabetes.org.br/dia-mundial-do-diabetes/">+<img src="Img/imgcarocel.jpg" class="d-block w-100 border rounded-4" alt="imagem do dia 14 de novembro"></a> 
-            <div class="carousel-caption d-none d-md-block">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
+    
+      <?php   
+        include 'carousel.php';
+      ?>
+
     <!-- Curiosidades -->
     <section class="container-fluid">
       <div class="d-flex justify-content-center mt-3">
