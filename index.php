@@ -51,15 +51,15 @@
                   <h2 class="text-primary text-start pt-3 ms-3 textoTipo fs-2">DIABETES TIPO 1</h2>
                 </header>
                 <div class="container">
-                    <p class="fs-4">
-                    &nbsp; &nbsp;    Em algumas pessoas, o sistema imunológico ataca equivocadamente as <br>
-                        células beta. Logo, pouca ou nenhuma insulina é liberada para o corpo. <br>
-                        Como resultado, a glicose fica no sangue, em vez de ser usada como <br>
-                        energia. Esse é o processo que caracteriza o Tipo 1 de diabetes, que <br>
-                        concentra entre 5 e 10% do total de pessoas com a doença. O Tipo 1 <br>
-                        aparece geralmente na infância ou adolescência, mas pode ser <br>
-                        diagnosticado em adultos também. Essa variedade é sempre tratada com <br>
-                        insulina, medicamentos, planejamento alimentar e atividades físicas, para <br>
+                    <p class="fs-4 modalfont">
+                    &nbsp; &nbsp;    Em algumas pessoas, o sistema imunológico ataca equivocadamente as
+                        células beta. Logo, pouca ou nenhuma insulina é liberada para o corpo. 
+                        Como resultado, a glicose fica no sangue, em vez de ser usada como 
+                        energia. Esse é o processo que caracteriza o Tipo 1 de diabetes, que 
+                        concentra entre 5 e 10% do total de pessoas com a doença. O Tipo 1 
+                        aparece geralmente na infância ou adolescência, mas pode ser
+                        diagnosticado em adultos também. Essa variedade é sempre tratada com
+                        insulina, medicamentos, planejamento alimentar e atividades físicas, para
                         ajudar a controlar o nível de glicose no sangue.
                         <br>
                     </p>
@@ -92,18 +92,14 @@
                   <h2 class="text-primary text-start pt-3 ms-3 textoTipo fs-2">DIABETES TIPO 2</h2>
                 </header>
                 <div class="container">
-                    <p class="fs-4 ms-2">
-                      &nbsp; &nbsp;  O Tipo 2 aparece quando o organismo não consegue usar adequadamente a insulina que produz; <br>
-                        ou não produz insulina suficiente para controla a taxa de glicemia. <br> Cerca de 90% 
-                        das pessoas com diabetes têm o Tipo 2. Ele se manifesta mais frequentemente em adultos, <br>
-                        mas crianças também podem apresentar. Dependendo da gravidade, ele pode ser controlado com atividade física <br>
-                         e planejamento alimentar. Em outros casos, exige o uso de insulina e/ou outros medicamentos para controlar a glicose.
-                        <p class="text-start mt-3 textoTipo fs-3 ms-3 d-flex"><b>
-                            Saiba mais sobre a diabete:
-                        </b>&nbsp;
-                        <a class="text-primary" id="links" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes">diabetes.gov</a>
-                    </p>
-                    </p>
+                      <p class="modalfont">
+                      O tipo 2 aparece quando o organismo não consegue usar adquadamente a insulina que produzir;
+                      ou não produz insulina suficiente para controla a taxa de glicemia. Cerca de 90% 
+                      das pessoas com diabetes têm o Tipo 2. Ele se manifesta mais frequentemente em adultos,
+                      mas crianças também podem apresentar. Dependendo da gravidade, ele pode ser controlado com atividade física 
+                       e planejamento alimentar. Em outros casos, exige o uso de insulina e/ou outros medicamentos para controlar a glicose.
+
+                      </p>
                 </div>
                 <footer class="w3-container d-flex">
                   <button type="button" class="w3-button bg-primary justify-content-End mb-3" data-dismiss="w3-modal"  onclick="document.getElementById('id012').style.display='none'" >Fechar</button>
@@ -127,7 +123,7 @@
                   <h2 class="text-primary text-start pt-3 ms-3 textoTipo fs-2">GESTACIONAL</h2>
                 </header>
                 <div class="container">
-                    <p class="fs-5 text-start">
+                    <p class="fs-5 text-start modalfont">
                  &nbsp; &nbsp;  A diabetes gestacional é um problema que surge durante a gravidez. A mulher fica com uma 
                      quantidade maior que o normal de açúcar no sangue. 
                       É uma condição que quase sempre se normaliza sozinha depois que o bebê nasce. 
@@ -140,7 +136,7 @@
                         <p class="text-start mt-3 textoTipo fs-4">
                           <b>Como perceber que estou com diabetes gestacional?</b>
                         </p>
-                        <p class="fs-5 text-start">
+                        <p class="fs-5 text-start modalfont">
                           &nbsp; &nbsp;   O diabetes gestacional pode ocorrer em qualquer mulher e nem sempre os sintomas são identificáveis.
                            Por isso, recomenda-se que todas as gestantes pesquisem, a partir da 24ª semana de gravidez (início do 6º mês), como está a glicose em jejum e,
                             mais importante ainda, a glicemia após estímulo da ingestão de glicose, o chamado teste oral de tolerância a glicose.
@@ -182,24 +178,24 @@
                           <p class="text-start mt-3 textoTipo fs-4">
                             <b> É possível controlar?</b>
                           </p>
-                          <p class="fs-5 text-start">
+                          <p class="fs-5 text-start modalfont">
                             &nbsp; &nbsp; O controle do diabetes gestacional é feito, na maioria das vezes, com a orientação nutricional adequada.
                              Para cada período da gravidez, uma quantidade certa de nutrientes. A prática de atividade física é outra medida de grande 
                              eficácia para redução dos níveis glicêmicos. A atividade deve ser feita somente depois de avaliada se existe alguma contraindicação, como por exemplo, risco de trabalho de parto prematuro.
-                             <p class="fs-5 text-start">
+                             <p class="fs-5 text-start modalfont">
                               &nbsp; &nbsp;   Aquelas gestantes que não chegam a um controle adequado com dieta e atividade física têm indicação de associar uso de insulinoterapia. O uso da insulina é seguro durante a gestação.
                               É importante destacar que a maioria das gestações complicadas pelo diabetes, quando tratadas de maneira adequada, terão excelente desfecho e os bebês nascerão saudáveis.
                              </p>
                           </p>
-                          <p class="text-start mt-3 textoTipo fs-4">
+                          <p class="text-start mt-3 textoTipo fs-4 modalfont">
                             <b>Cuidados</b>
                           </p>
-                          <p class="fs-5 text-start">
+                          <p class="fs-5 text-start modalfont">
                             &nbsp; &nbsp;   O histórico de diabetes gestacional é um importante fator de risco para desenvolvimento de Diabetes Tipo 2. 
                             Aproximadamente seis semanas após o parto, a mãe deve realizar um novo teste oral de tolerância a glicose, 
                             sem estar em uso de medicamentos antidiabéticos.
                           </p>
-                          <p class="fs-5 text-start">
+                          <p class="fs-5 text-start modalfont">
                             &nbsp; &nbsp;   Uma ótima notícia é que o aleitamento materno pode reduzir o risco de desenvolvimento de diabetes após o parto.
                              A alimentação balanceada e a prática regular de atividades físicas completam essa 'fórmula infalível'.
                           </p>
@@ -233,7 +229,7 @@
                   </h2>
                 </header>
                 <div class="container">
-                    <p class="fs-5 text-start">
+                    <p class="fs-5 text-start modalfont">
                  &nbsp; &nbsp;  A diabetes é uma doença cercada de mitos, mas, na verdade, quem tem o problema pode levar uma vida mais do que normal: ativa,
                   saudável e feliz. Entretanto, se não houver acompanhamento, as altas taxas de glicose no sangue podem favorecer algumas complicações. <br>
                         <p class="text-start mt-3 textoTipo fs-4">
@@ -255,7 +251,7 @@
                           <b>
                             Saiba mais sobre a diabete:</b>
                         </p>
-                        <p class="fs-5 text-start">
+                        <p class="fs-5 text-start modalfont">
                       &nbsp; &nbsp;Em algumas pessoas, o sistema imunológico ataca equivocadamente as células beta. Logo,
                        pouca ou nenhuma insulina é liberada para o corpo. Como resultado, a glicose fica no sangue, em vez de ser 
                        usada como energia. Esse é o processo que caracteriza o Tipo 1 de diabetes, que concentra entre 5 e 10% do total
