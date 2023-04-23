@@ -9,31 +9,10 @@
 </head>
 <body>
     <!-- cabeçario -->
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-danger">
-          <div class="container-fluid bg-white">
-            <a class="navbar-brand text-danger mx-4" href="index.html"> <img src="Img/logopequenaweb.png" alt="" srcset=""> </a>
-            <div class="collapse navbar-collapse navbar-right d-flex justify-content-center hiden" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item mx-3">
-                  <a class="nav-link active text-danger" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item mx-e">
-                  <a class="nav-link text-danger" href="FaleConosco.html">Contato</a>
-                </li>
-                <li class="nav-item mx-3">
-                  <a class="nav-link text-danger" href="download.html">Download</a>
-                </li>
-                <li class="nav-item mx-3">
-                  <a class="nav-link text-danger" href="sobreNos.html">Sobre nós</a>
-                </li>
-                </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    </header>
+  <?php 
+    include 'menu.php';
+  ?>
+   
     <!-- receita -->
     <main class="container mt-5 border border-1 border-black bg-white rounded-2">
       <!-- receita crianças  -->
