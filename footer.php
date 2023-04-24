@@ -20,11 +20,11 @@
                     LINKS
                   </h6>
                   <li class="text-white text-center">
-                    <h6> <a class="nav-link" href="FaleConosco.html">Contato</a></h6>
-                    <h6> <a class="nav-link" href="download.html">Download</a></h6>
-                    <h6> <a class="nav-link" href="receita.html">Receitas</a></h6>
+                    <h6> <a class="nav-link" href="FaleConosco.php">Contato</a></h6>
+                    <h6> <a class="nav-link" href="download.php">Download</a></h6>
+                    <h6> <a class="nav-link" href="receita.php">Receitas</a></h6>
                     <h6> <a class="nav-link" href="https://diabetesplay.com.br/">Videos</a></h6>
-                    <h6> <a class="nav-link" href="index.html">Home</a></h6>
+                    <h6> <a class="nav-link" href="index.php">Home</a></h6>
                   </li>
                 </ul>
               </div>
@@ -32,7 +32,7 @@
             <div class="col">
                 <div class="col d-block">
                   <div class="mt-5">
-                  <h6 class="p-3"><a href="FaleConosco.html" class="text-white">FALE-CONOSCO</a></h6>
+                  <h6 class="p-3"><a href="FaleConosco.php" class="text-white">FALE-CONOSCO</a></h6>
                 </div>
                 <div class="text-white">
                   Telefone: (11) 2185-9200
