@@ -7,35 +7,37 @@
     <title>Carrossel index</title>
 </head>
 <body>
-        <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
-
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="Img/imgCarousel1.jpeg" alt="Desccrição" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-            <img src="Img/imgCarousel2.jpeg" alt="Chicago" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-            <img src="Img/imgCarousel3.jpeg" alt="New York" class="d-block w-100">
-        </div>
-        </div>
-
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-        </button>
-        </div>
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Compromisso_Com_A_Vida.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">  
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/242a347575_100778_01-intro-859.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block"> 
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/mellituscarocel.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 </body>
 </html>

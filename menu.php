@@ -7,21 +7,31 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body style="height:1500px">
-<nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#index.php">Acessa DMellitus</a>
-    <ul class="navbar-nav">
-      <li class="nav-item active"><a class="nav-link active" href="index.php">Home</a></li>
-      <li class="nav-item active"><a class="nav-link"  href="#news">News</a></li>
-      <li class="nav-item active"><a class="nav-link" href="#contact">Contact</a></li>
-      <li class="nav-item active"><a class="nav-link" href="#about">About</a></li>
-  </ul>
- 
-        
-  </div>
-</nav>
-<div class="container-fluid" style="margin-top:80px">
-</div>
+<body>
+<header class="">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-danger">
+        <div class="container-fluid bg-white">
+          <a class="navbar-brand text-danger mx-4" href="index.html"> <img src="Img/logopequenaweb.png" alt="" srcset=""> </a>
+          <div class="collapse navbar-collapse navbar-right d-flex justify-content-center hiden" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-3">
+                <a class="nav-link active text-danger fs-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-e">
+                <a class="nav-link text-danger fs-4" href="FaleConosco.html">Contato</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-danger fs-4" href="download.html">Download</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-danger fs-4" href="sobreNos.html">Sobre nós</a>
+              </li>
+              </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 </body>
 </html>

@@ -75,7 +75,6 @@
       <div class="row text-center me-5">
         <h6 class="text-white ms-5">Desenvolvido por Equipe Acesso Dm Mellitus&trade; 2023</h6>
         </div>
-        <button class="voltar-ao-topo btn bg-black m-5 fs-3">&uarr;</button>
      </footer>   
 </body>
 <script src="Js/estilo.js"></script>

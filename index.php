@@ -8,18 +8,13 @@
     <link rel="stylesheet" href="css/estilo.css">    
     <title>Acesso Dm Mellitus</title>
 </head>
-<body class="">
+<body class="bg-white">
   <!-- cabecario -->
   <?php 
     include 'menu.php';
   ?>
    
     <!-- conteudo  -->
-    <section class="m-5">
-      <div class="d-flex justify-content-center">
-        <h3 class="border-bottom border-danger border-opacity-50">Conteúdo</h3>
-      </div>
-    </section>
     <!-- carousel  -->
     
       <?php   
@@ -37,7 +32,7 @@
           <div class="d-flex justify-content-evenly">
           <div class="mx-5">
             <img class="me-5"  onclick="document.getElementById('id01').style.display='block'" class="w3-img w3-black" src="Img/curiosidades.jpg" alt="" width="100px">
-            <p class="text-center text-primary fs-3 me-5 textoTipo">
+            <p class="text-center text-danger fs-3 me-5 textoTipo">
               TIPO 1
             </p>
           </div>
@@ -78,7 +73,7 @@
           <!-- modal  -->
           <div class="mx-5">
             <img src="Img/curiosidades.jpg" onclick="document.getElementById('id012').style.display='block'" class="w3-img w3-black" alt="" width="100px">
-            <p class="text-center text-primary fs-3 textoTipo">
+            <p class="text-center text-danger fs-3 textoTipo">
               TIPO 2
             </p>
           </div>
@@ -92,7 +87,7 @@
                   <h2 class="text-primary text-start pt-3 ms-3 textoTipo fs-2">DIABETES TIPO 2</h2>
                 </header>
                 <div class="container">
-                      <p class="modalfont">
+                      <p class="f-4 modalfont">
                       O tipo 2 aparece quando o organismo não consegue usar adquadamente a insulina que produzir;
                       ou não produz insulina suficiente para controla a taxa de glicemia. Cerca de 90% 
                       das pessoas com diabetes têm o Tipo 2. Ele se manifesta mais frequentemente em adultos,
@@ -109,7 +104,7 @@
           </section>
           <div class="mx-5">
             <img class="ms-5" onclick="document.getElementById('id013').style.display='block'" class="w3-img w3-black" src="Img/mae.png" alt="" width="100px">
-            <p class="text-center text-primary fs-3 textoTipo">
+            <p class="text-center text-danger fs-3 textoTipo">
                 GESTACIONAL
             </p>
           </div>
@@ -214,7 +209,7 @@
           </section>
           <div class="mx-5">
             <img class="ms-5" onclick="document.getElementById('id014').style.display='block'" class="w3-img w3-black" src="Img/teste-de-diabetes.png" alt="" width="90px">
-            <p class="text-center text-primary fs-3 textoTipo">
+            <p class="text-center text-danger fs-3 textoTipo">
                 COMPLICAÇÕES <br> DA DIABETE
             </p>
           </div>
@@ -266,9 +261,6 @@
                     </p>
                     </p>
                 </div>
-                <footer class="w3-container d-flex">
-                  <button type="button" class="w3-button bg-primary mb-3" data-dismiss="w3-modal"  onclick="document.getElementById('id014').style.display='none'" >Fechar</button>
-                </footer>
               </div>
             </div>
           </section>
@@ -280,6 +272,8 @@
     <?php 
     include 'footer.php';
   ?>
+  <?php 
+  include 'BotaoTop.php';
+  ?>
 </body>
-<script src="Js/estilo.js"></script>
 </html>
